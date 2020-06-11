@@ -1,0 +1,56 @@
+@mixin descHeadings {
+  .descHeading {
+    text-align: center;
+    position: relative;
+    h1 {
+      opacity: 0.2;
+      font-size: 6rem;
+      color: #fff;
+    }
+    h6 {
+      position: absolute;
+      top: 40%;
+      left: 35%;
+      right: 35%;
+      font-size: 2rem;
+      color: #e1cdb5;
+      font-weight: 700;
+    }
+  }
+  .whiteLine {
+    width: 5rem;
+    height: 0.1rem;
+    background-color: #fff;
+    margin: 0 auto;
+  }
+  .row {
+    margin-top: 5rem;
+  }
+}
+
+@mixin modalButtons {
+  .viewCode {
+    transition-duration: 0.5s;
+    border-radius: 0.4rem;
+    border-style: none;
+    padding: 0.5rem;
+    background-color: #e1cdb5;
+    font-weight: 500;
+    outline: none;
+    &:hover {
+      background-color: $hoverColor;
+    }
+  }
+  .viewSite {
+    transition-duration: 0.5s;
+    border-radius: 0.4rem;
+    border-style: none;
+    padding: 0.5rem;
+    background-color: #e1cdb5;
+    font-weight: 500;
+    outline: none;
+    &:hover {
+      background-color: $hoverColor;
+    }
+  }
+}

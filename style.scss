@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  background-image: url("imgs/sitebg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@import "global/functions";
+@import "global/colors";
+@import "global/navbar";
+@import "aboutme-page/landingpage";
+@import "aboutme-page/intro";
+@import "aboutme-page/priority";
+@import "aboutme-page/myskills";
+@import "portfolio-page/works";

@@ -1,0 +1,20 @@
+#mySkills {
+  margin: 200px 0;
+  @include descHeadings();
+  .row {
+    .col-md-4 {
+      text-align: center;
+      padding: 1rem;
+      .inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #635380;
+        height: 5rem;
+        h3 {
+          color: #e1cdb5;
+        }
+      }
+    }
+  }
+}

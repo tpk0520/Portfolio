@@ -1,0 +1,44 @@
+#myNavBar {
+  .navbar-brand {
+    font-size: 2rem;
+    color: #e1cdb5;
+    padding: 0;
+    border-right: 1px solid #fff;
+    padding-right: 1rem;
+  }
+  .navbar {
+    padding: 2rem;
+    margin: 0 auto;
+    transition-duration: 0.6s;
+  }
+  .nav-item {
+    color: $navItemColor;
+    margin: 0 auto;
+    font-weight: 700;
+    transition-duration: 0.2s;
+    &:hover {
+      color: $hoverColor;
+    }
+  }
+  .navbar-toggler-icon i {
+    margin-top: 0.2rem;
+    color: $navItemColor;
+    font-size: 2rem;
+  }
+  button:focus {
+    outline: none;
+  }
+  .scrolled {
+    background-color: $navbarBackgroundColor;
+  }
+  .active {
+    border-bottom: 0.01rem solid $hoverColor;
+    color: $hoverColor;
+  }
+}
+
+@media screen and (min-width: 35.93em) {
+  #myNavBar .navbar-brand {
+    display: none;
+  }
+}
